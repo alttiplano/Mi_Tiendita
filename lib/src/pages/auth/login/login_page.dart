@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_svg/flutter_svg.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -15,10 +14,10 @@ class LoginPage extends StatelessWidget {
               Colors.red[900]!,
               Colors.red[800]!,
               Colors.red[400]!,
-            ]
-          )
+            ],
+          ),
         ),
-      )
+      ),
     );
   }
 }
