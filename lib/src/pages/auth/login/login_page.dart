@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -7,13 +8,13 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             colors: [
-              Colors.red[900]!,
-              Colors.red[800]!,
-              Colors.red[400]!,
+              AppColors.red900,
+              AppColors.red800,
+              AppColors.red400,
             ],
           ),
         ),
