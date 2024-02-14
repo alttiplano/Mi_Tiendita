@@ -18,6 +18,22 @@ class LoginPage extends StatelessWidget {
             ],
           ),
         ),
+        child: Column(
+          children: <Widget>[
+            const SizedBox(height: 350),
+            Expanded(
+              child: Container(
+                decoration: const BoxDecoration(
+                  color: CardColor.card,
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(40),
+                    topRight: Radius.circular(40),
+                  ),
+                ),
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
