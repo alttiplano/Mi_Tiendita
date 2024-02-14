@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mi_tiendita/src/pages/auth/login/login_card.dart';
 import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 
 class LoginPage extends StatelessWidget {
@@ -18,19 +19,11 @@ class LoginPage extends StatelessWidget {
             ],
           ),
         ),
-        child: Column(
+        child: const Column(
           children: <Widget>[
-            const SizedBox(height: 350),
+            SizedBox(height: 350),
             Expanded(
-              child: Container(
-                decoration: const BoxDecoration(
-                  color: CardColor.card,
-                  borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(40),
-                    topRight: Radius.circular(40),
-                  ),
-                ),
-              ),
+              child: LoginCard(),
             )
           ],
         ),
