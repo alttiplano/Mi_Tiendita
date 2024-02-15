@@ -3,7 +3,7 @@ import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/continue_line.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_button.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_phone.dart';
-import 'package:mi_tiendita/src/pages/auth/login/widgets/social_sign.dart';
+import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_social.dart';
 
 class LoginCard extends StatelessWidget {
   const LoginCard({Key? key}) : super(key: key);
