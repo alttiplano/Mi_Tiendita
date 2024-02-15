@@ -26,15 +26,26 @@ class OtpPhone extends StatelessWidget {
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(20),
         child: Container(
-          child: Pinput(
-            length: 4,
-            defaultPinTheme: defaultPinTheme,
-            focusedPinTheme: defaultPinTheme.copyWith(
-              decoration: defaultPinTheme.decoration!.copyWith(
-                border: Border.all(color: Colors.green),
+          margin: const EdgeInsets.only(top: 30),
+          width: double.infinity,
+          child: Column(
+            children: [
+              const Text('Verificación',style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'Poppins'
+              ),),
+              Pinput(
+                length: 4,
+                defaultPinTheme: defaultPinTheme,
+                focusedPinTheme: defaultPinTheme.copyWith(
+                  decoration: defaultPinTheme.decoration!.copyWith(
+                    border: Border.all(color: Colors.green),
+                  ),
+                ),
+                onCompleted: (pin) => debugPrint(pin),
               ),
-            ),
-            onCompleted: (pin) => debugPrint(pin),
+            ],
           ),
         ),
       ),
