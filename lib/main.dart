@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/login/login_page.dart';
 
-import 'src/pages/login/auth/auth_phone.dart';
+import 'src/pages/login/auth/otp_phone.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       initialRoute: 'login',
       routes: {
         'login': (BuildContext context) => const LoginPage(),
-        'otp': (BuildContext context) => const OtpAuth(),
+        'otp': (BuildContext context) => const OtpPhone(),
       },
     );
   }

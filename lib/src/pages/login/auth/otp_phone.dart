@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class OtpAuth extends StatelessWidget {
-  const OtpAuth({super.key});
+class OtpPhone extends StatelessWidget {
+  const OtpPhone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class OtpAuth extends StatelessWidget {
         title: const Text('OTP Auth'),
       ),
       body: const Center(
-        child: Text('Auth Phone'),
+        child: Text('Auth Phone 2'),
       ),
     );
   }
