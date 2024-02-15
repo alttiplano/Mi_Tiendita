@@ -25,7 +25,7 @@ class LoginCard extends StatelessWidget {
               style: TextStyle(
                 color: Colors.black,
                 fontSize: 24,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w500,
                 fontFamily: 'Poppins'
               ),
             ),
