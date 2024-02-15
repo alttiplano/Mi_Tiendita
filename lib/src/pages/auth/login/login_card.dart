@@ -19,7 +19,6 @@ class LoginCard extends StatelessWidget {
         padding: EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Text(
               'Log in',
@@ -27,6 +26,7 @@ class LoginCard extends StatelessWidget {
                 color: Colors.black,
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
+                fontFamily: 'Poppins'
               ),
             ),
           ],
