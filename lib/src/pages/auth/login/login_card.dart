@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
+import 'package:mi_tiendita/src/pages/auth/login/widgets/continue_line.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/social_sign.dart';
 import 'package:mi_tiendita/src/themes/button_color.dart';
 
@@ -65,32 +66,7 @@ class LoginCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 25),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 25.0),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Divider(
-                      thickness: 0.5,
-                      color: Colors.grey[600],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                    child: Text(
-                      ' Oh continuar con',
-                      style: TextStyle(color: Colors.grey[700]),
-                    ),
-                  ),
-                  Expanded(
-                    child: Divider(
-                      thickness: 0.5,
-                      color: Colors.grey[600],
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            const ContinueLine(),
             const SizedBox(height: 15),
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
