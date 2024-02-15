@@ -11,3 +11,8 @@ class AppColors {
 class CardColor {
   static const Color card = Color(0xFFffffff);
 }
+
+// Background color social media
+class BackgroundSocialMedia {
+  static const Color backgroundSocialMedia = Color(0xFFEEEEEE);
+}

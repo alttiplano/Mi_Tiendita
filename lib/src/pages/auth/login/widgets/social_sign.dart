@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 
 class SquareTile extends StatelessWidget {
   final String imagePath;
@@ -12,7 +13,7 @@ class SquareTile extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
       decoration: BoxDecoration(
-        color: Colors.grey[200],
+        color: BackgroundSocialMedia.backgroundSocialMedia,
         borderRadius: BorderRadius.circular(10),
       ),
       child: Image.asset(
