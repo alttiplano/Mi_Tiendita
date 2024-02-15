@@ -7,10 +7,12 @@ class OtpPhone extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('OTP Auth'),
+        title: const Text('OTP Phone'),
+        centerTitle: true,
       ),
-      body: const Center(
-        child: Text('Auth Phone 2'),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
+        child: Container(),
       ),
     );
   }
