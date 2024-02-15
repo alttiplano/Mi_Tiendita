@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
+import 'package:intl_phone_field/intl_phone_field.dart';
 
 class LoginCard extends StatelessWidget {
-  const LoginCard({super.key});
+  const LoginCard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,11 +24,23 @@ class LoginCard extends StatelessWidget {
             Text(
               'Inicar Sesión',
               style: TextStyle(
-                color: Colors.black,
-                fontSize: 24,
-                fontWeight: FontWeight.w500,
-                fontFamily: 'Poppins'
-              ),
+                  color: Colors.black,
+                  fontSize: 24,
+                  fontWeight: FontWeight.w500,
+                  fontFamily: 'Poppins'),
+            ),
+            SizedBox(height: 30),
+            Column(
+              children: [
+                IntlPhoneField(
+                  decoration: InputDecoration(
+                    labelText: 'Numero',
+                    border: OutlineInputBorder(
+                      borderSide: BorderSide(),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
         ),

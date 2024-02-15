@@ -12,6 +12,7 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.9
+  intl_phone_field: ^3.2.0
 
 dev_dependencies:
   flutter_test:
@@ -45,7 +46,8 @@ flutter:
         - asset: assets/fonts/Poppins-ExtraLight.ttf
           weight: 200
         - asset: assets/fonts/Poppins-Thin.ttf
-          weight: 100  
+          weight: 100 
+
     - family: rubik
       fonts:
         - asset: assets/fonts/RubikGlitchPop-Regular.ttf
