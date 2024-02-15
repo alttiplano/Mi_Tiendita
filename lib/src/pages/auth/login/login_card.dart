@@ -39,7 +39,7 @@ class LoginCard extends StatelessWidget {
                 SignButton() // Add your text here
               ],
             ),
-            SizedBox(height: 25),
+            SizedBox(height: 27),
             ContinueLine(),
             SizedBox(height: 15),
             Row(
