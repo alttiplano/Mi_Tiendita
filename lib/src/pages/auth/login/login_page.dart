@@ -21,7 +21,7 @@ class LoginPage extends StatelessWidget {
         ),
         child: const Column(
           children: <Widget>[
-            SizedBox(height: 350),
+            SizedBox(height: 400),
             Expanded(
               child: LoginCard(),
             )
