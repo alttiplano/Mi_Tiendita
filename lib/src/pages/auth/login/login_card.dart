@@ -91,7 +91,7 @@ class LoginCard extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 15),
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
