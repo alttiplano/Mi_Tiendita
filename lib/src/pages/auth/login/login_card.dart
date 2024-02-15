@@ -16,12 +16,12 @@ class LoginCard extends StatelessWidget {
           topRight: Radius.circular(40),
         ),
       ),
-      child: const Padding(
-        padding: EdgeInsets.all(20),
+      child: Padding(
+        padding: const EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               'Inicar Sesión',
               style: TextStyle(
                   color: Colors.black,
@@ -29,10 +29,10 @@ class LoginCard extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   fontFamily: 'Poppins'),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
             Column(
               children: [
-                IntlPhoneField(
+                const IntlPhoneField(
                   decoration: InputDecoration(
                     labelText: 'Numero',
                     border: OutlineInputBorder(
@@ -42,6 +42,11 @@ class LoginCard extends StatelessWidget {
                     ),
                   ),
                 ),
+                const SizedBox(height: 20),
+                ElevatedButton(
+                  onPressed: () {},
+                  child: const Text('Iniciar Sesión'),
+                )
               ],
             ),
           ],
