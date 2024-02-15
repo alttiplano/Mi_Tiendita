@@ -29,7 +29,7 @@ class LoginCard extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   fontFamily: 'Poppins'),
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 40),
             Column(
               children: [
                 const IntlPhoneField(
@@ -42,7 +42,7 @@ class LoginCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20),
+                // const SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {},
                   child: const Text('Iniciar Sesión'),
