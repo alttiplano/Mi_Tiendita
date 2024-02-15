@@ -38,7 +38,7 @@ class LoginCard extends StatelessWidget {
                     labelText: 'Numero',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.all(
-                        Radius.circular(15),
+                        Radius.circular(13),
                       ),
                     ),
                   ),
@@ -51,7 +51,7 @@ class LoginCard extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(
                         horizontal: 50, vertical: 15),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30),
+                      borderRadius: BorderRadius.circular(13),
                     ),
                   ),
                   child: const Text(
