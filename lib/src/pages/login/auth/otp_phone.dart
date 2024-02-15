@@ -20,7 +20,7 @@ class OtpPhone extends StatelessWidget {
     );
     return Scaffold(
       appBar: AppBar(
-        title: const Text('OTP Phone'),
+        title: const Text(''),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -30,11 +30,32 @@ class OtpPhone extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: [
-              const Text('Verificación',style: TextStyle(
-                fontSize: 28,
-                fontWeight: FontWeight.bold,
-                fontFamily: 'Poppins'
-              ),),
+              const Text(
+                'Verificación',
+                style: TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Poppins'),
+              ),
+              const SizedBox(height: 4),
+              const Text(
+                'Ingresa el código de verificación',
+                style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w400,
+                    fontFamily: 'Poppins'),
+              ),
+              const SizedBox(height: 10),
+              const Text(
+                '+51 999 999 999',
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    fontFamily: 'Poppins'),
+              ),
+              const SizedBox(height: 25),
               Pinput(
                 length: 4,
                 defaultPinTheme: defaultPinTheme,
