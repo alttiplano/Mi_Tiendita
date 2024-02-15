@@ -10,7 +10,7 @@ class OtpAuth extends StatelessWidget {
         title: const Text('OTP Auth'),
       ),
       body: const Center(
-        child: Text('OTP Auth'),
+        child: Text('Auth Phone'),
       ),
     );
   }

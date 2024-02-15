@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/login/login_page.dart';
 
-import 'src/pages/login/auth/otp_auth.dart';
+import 'src/pages/login/auth/auth_phone.dart';
 
 void main() {
   runApp(const MyApp());
