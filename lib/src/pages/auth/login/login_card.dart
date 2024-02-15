@@ -60,7 +60,12 @@ class LoginCard extends StatelessWidget {
                       fontFamily: 'Poppins',
                     ),
                   ),
-                )
+                ),
+                const SizedBox(height: 10),
+                const Text(
+                  " ━━━━ or ━━━━",
+                  style: TextStyle(fontSize: 20),
+                ), // Add your text here
               ],
             ),
           ],
