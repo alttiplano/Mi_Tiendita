@@ -46,3 +46,6 @@ flutter:
           weight: 200
         - asset: assets/fonts/Poppins-Thin.ttf
           weight: 100  
+    - family: rubik
+      fonts:
+        - asset: assets/fonts/RubikGlitchPop-Regular.ttf

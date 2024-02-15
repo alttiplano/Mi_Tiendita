@@ -21,10 +21,10 @@ class LoginCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              'Log in',
+              'Inicar Sesión',
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 26,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
                 fontFamily: 'Poppins'
               ),
