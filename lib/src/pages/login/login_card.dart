@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
-import 'package:mi_tiendita/src/pages/auth/login/widgets/continue_line.dart';
-import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_button.dart';
-import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_phone.dart';
-import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_social.dart';
+import 'package:mi_tiendita/src/pages/login/themes/colors.dart';
+import 'package:mi_tiendita/src/pages/login/widgets/continue_line.dart';
+import 'package:mi_tiendita/src/pages/login/widgets/sign_button.dart';
+import 'package:mi_tiendita/src/pages/login/widgets/sign_phone.dart';
+import 'package:mi_tiendita/src/pages/login/widgets/sign_social.dart';
 
 class LoginCard extends StatelessWidget {
   const LoginCard({Key? key}) : super(key: key);
@@ -32,14 +32,14 @@ class LoginCard extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   fontFamily: 'Poppins'),
             ),
-            SizedBox(height: 30),
+            SizedBox(height: 28),
             Column(
               children: [
                 SignPhone(),
                 SignButton() // Add your text here
               ],
             ),
-            SizedBox(height: 27),
+            SizedBox(height: 28),
             ContinueLine(),
             SizedBox(height: 15),
             Row(

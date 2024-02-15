@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mi_tiendita/src/pages/auth/login/login_card.dart';
-import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
+import 'package:mi_tiendita/src/pages/login/login_card.dart';
+import 'package:mi_tiendita/src/pages/login/themes/colors.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});

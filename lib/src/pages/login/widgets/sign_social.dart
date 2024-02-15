@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
+import 'package:mi_tiendita/src/pages/login/themes/colors.dart';
 
 class SquareTile extends StatelessWidget {
   final String imagePath;
