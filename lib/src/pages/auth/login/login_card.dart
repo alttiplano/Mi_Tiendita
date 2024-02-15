@@ -65,24 +65,27 @@ class LoginCard extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 25),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 25.0),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Row(
                 children: [
                   Expanded(
                     child: Divider(
                       thickness: 0.5,
-                      color: Colors.black,
+                      color: Colors.grey[600],
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 10.0),
-                    child: Text(' Oh continuar con'),
+                    padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                    child: Text(
+                      ' Oh continuar con',
+                      style: TextStyle(color: Colors.grey[700]),
+                    ),
                   ),
                   Expanded(
                     child: Divider(
                       thickness: 0.5,
-                      color: Colors.black,
+                      color: Colors.grey[600],
                     ),
                   ),
                 ],
