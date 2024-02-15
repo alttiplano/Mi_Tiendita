@@ -17,11 +17,16 @@ class SignButton extends StatelessWidget {
               borderRadius: BorderRadius.circular(13),
             ),
           ),
-          child: const Text(
-            'Iniciar Sesión',
-            style: TextStyle(
-              color: Colors.white,
-              fontFamily: 'Poppins',
+          child: GestureDetector(
+            onTap: () {
+              Navigator.pushNamed(context, 'otp');
+            },
+            child: const Text(
+              'Iniciar Sesión',
+              style: TextStyle(
+                color: Colors.white,
+                fontFamily: 'Poppins',
+              ),
             ),
           ),
         ),
