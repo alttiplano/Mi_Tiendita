@@ -36,7 +36,9 @@ class LoginCard extends StatelessWidget {
                   decoration: InputDecoration(
                     labelText: 'Numero',
                     border: OutlineInputBorder(
-                      borderSide: BorderSide(),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(15),
+                      ),
                     ),
                   ),
                 ),
