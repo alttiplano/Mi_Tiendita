@@ -43,7 +43,6 @@ class LoginCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                // const SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {},
                   style: ElevatedButton.styleFrom(
@@ -56,7 +55,10 @@ class LoginCard extends StatelessWidget {
                   ),
                   child: const Text(
                     'Iniciar Sesión',
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontFamily: 'Poppins',
+                    ),
                   ),
                 )
               ],
