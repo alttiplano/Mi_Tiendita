@@ -32,7 +32,7 @@ class LoginCard extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   fontFamily: 'Poppins'),
             ),
-            SizedBox(height: 40),
+            SizedBox(height: 30),
             Column(
               children: [
                 SignPhone(),
