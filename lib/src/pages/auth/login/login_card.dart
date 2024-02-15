@@ -69,10 +69,12 @@ class LoginCard extends StatelessWidget {
                 ), // Add your text here
               ],
             ),
+            const SizedBox(height: 20),
             const Row(
-              mainAxisAlignment: MainAxisAlignment.center, // Corrected here
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SquareTile(imagePath: 'assets/images/google.png'),
+                SizedBox(width: 20),
                 SquareTile(imagePath: 'assets/images/facebook.webp'),
               ],
             )
