@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
+import 'package:mi_tiendita/src/pages/auth/login/widgets/square_tile.dart';
 import 'package:mi_tiendita/src/themes/button_color.dart';
 
 class LoginCard extends StatelessWidget {
@@ -68,6 +69,13 @@ class LoginCard extends StatelessWidget {
                 ), // Add your text here
               ],
             ),
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.center, // Corrected here
+              children: [
+                SquareTile(imagePath: 'assets/images/google.png'),
+                SquareTile(imagePath: 'assets/images/facebook.webp'),
+              ],
+            )
           ],
         ),
       ),
