@@ -77,7 +77,7 @@ class LoginCard extends StatelessWidget {
                   ),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10.0),
-                    child: Text('Continuar con'),
+                    child: Text(' Oh continuar con'),
                   ),
                   Expanded(
                     child: Divider(
