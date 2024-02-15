@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
-import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/continue_line.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_button.dart';
+import 'package:mi_tiendita/src/pages/auth/login/widgets/sign_phone.dart';
 import 'package:mi_tiendita/src/pages/auth/login/widgets/social_sign.dart';
 
 class LoginCard extends StatelessWidget {
@@ -35,17 +35,8 @@ class LoginCard extends StatelessWidget {
             SizedBox(height: 40),
             Column(
               children: [
-                IntlPhoneField(
-                  decoration: InputDecoration(
-                    labelText: 'Numero',
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(13),
-                      ),
-                    ),
-                  ),
-                ),
-              SignButton()// Add your text here
+                SignPhone(),
+                SignButton() // Add your text here
               ],
             ),
             SizedBox(height: 25),
