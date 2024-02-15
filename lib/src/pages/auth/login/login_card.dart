@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mi_tiendita/src/pages/auth/login/themes/colors.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
+import 'package:mi_tiendita/src/themes/button_color.dart';
 
 class LoginCard extends StatelessWidget {
   const LoginCard({Key? key}) : super(key: key);
@@ -45,7 +46,18 @@ class LoginCard extends StatelessWidget {
                 // const SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {},
-                  child: const Text('Iniciar Sesión'),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: ButtonColor.button,
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 50, vertical: 15),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                  ),
+                  child: const Text(
+                    'Iniciar Sesión',
+                    style: TextStyle(color: Colors.white),
+                  ),
                 )
               ],
             ),
