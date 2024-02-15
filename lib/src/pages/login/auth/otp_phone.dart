@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mi_tiendita/src/pages/login/auth/widgets/verify_btn.dart';
 import 'package:pinput/pinput.dart';
 
 class OtpPhone extends StatelessWidget {
@@ -66,6 +67,8 @@ class OtpPhone extends StatelessWidget {
                 ),
                 onCompleted: (pin) => debugPrint(pin),
               ),
+              const SizedBox(height: 25),
+              const VerifyBtn()
             ],
           ),
         ),
